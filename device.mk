@@ -73,6 +73,7 @@ endif
 # Device Init
 PRODUCT_PACKAGES += \
     fstab.suzu \
+    fstab.ramdisk.suzu \
     init.recovery.suzu \
     init.suzu
 
