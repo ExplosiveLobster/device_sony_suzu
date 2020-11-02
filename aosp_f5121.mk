@@ -18,6 +18,7 @@ KERNEL_DEFCONFIG := loire_suzu_defconfig
 $(call inherit-product, device/sony/suzu/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 PRODUCT_NAME := aosp_f5121
 PRODUCT_DEVICE := suzu
